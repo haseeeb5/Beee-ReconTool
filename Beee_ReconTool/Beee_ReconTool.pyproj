@@ -1,0 +1,84 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>161e2d6e-bf57-4a15-b246-eda8527da39c</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>main.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Beee_ReconTool</Name>
+    <RootNamespace>Beee_ReconTool</RootNamespace>
+    <InterpreterId>
+    </InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="main.py" />
+    <Compile Include="modules\active\banners.py" />
+    <Compile Include="modules\active\port_scan.py" />
+    <Compile Include="modules\active\tech_detect.py" />
+    <Compile Include="modules\active\__init__.py" />
+    <Compile Include="modules\passive\dns_enum.py" />
+    <Compile Include="modules\passive\helper.py" />
+    <Compile Include="modules\passive\subdomain.py" />
+    <Compile Include="modules\passive\who_is.py" />
+    <Compile Include="modules\passive\__init__.py" />
+    <Compile Include="modules\reporting.py" />
+    <Compile Include="modules\__init__.py" />
+    <Compile Include="utils\async_runner.py" />
+    <Compile Include="utils\cache.py" />
+    <Compile Include="utils\logger.py" />
+    <Compile Include="utils\user_agents.py" />
+    <Compile Include="utils\visualizer.py" />
+    <Compile Include="utils\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="modules\" />
+    <Folder Include="modules\active\" />
+    <Folder Include="modules\active\__pycache__\" />
+    <Folder Include="modules\passive\" />
+    <Folder Include="modules\passive\__pycache__\" />
+    <Folder Include="reports\" />
+    <Folder Include="templates\" />
+    <Folder Include="utils\" />
+    <Folder Include="utils\__pycache__\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="README.md" />
+    <Content Include="reports\311.html" />
+    <Content Include="reports\active-Rport.html" />
+    <Content Include="reports\asa.html" />
+    <Content Include="reports\ascasfd.html" />
+    <Content Include="reports\fullreport.html" />
+    <Content Include="reports\Passive-report.html" />
+    <Content Include="reports\rw.html" />
+    <Content Include="reports\saasa.html" />
+    <Content Include="requirements.txt" />
+    <Content Include="templates\report_template.html" />
+    <Content Include="utils\__pycache__\async_runner.cpython-313.pyc" />
+    <Content Include="utils\__pycache__\cache.cpython-313.pyc" />
+    <Content Include="utils\__pycache__\logger.cpython-313.pyc" />
+    <Content Include="utils\__pycache__\user_agents.cpython-313.pyc" />
+    <Content Include="utils\__pycache__\visualizer.cpython-313.pyc" />
+    <Content Include="utils\__pycache__\__init__.cpython-313.pyc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
