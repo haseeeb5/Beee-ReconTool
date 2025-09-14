@@ -61,3 +61,34 @@ pip install -r requirements.txt
 # Run the tool
 python main.py
 
+## 🎯 Usage
+Basic Operation
+bash
+python main.py
+Interactive Menu System
+The tool provides an intuitive menu-driven interface:
+
+Select reconnaissance type (Passive/Active/Full)
+
+Enter target (domain or IP address)
+
+Choose specific modules to execute
+
+View results in real-time
+
+Generate reports in HTML format
+
+Example Session
+text
+➤ Enter Target (domain or IP address):
+>>> example.com
+
+Starting WHOIS lookup...
+WHOIS lookup completed!
+
+Starting DNS enumeration...
+DNS enumeration completed!
+
+Generate report? (y/n): y
+Report filename (default: report.html): 
+Report generated at: reports/example_com_report.html
