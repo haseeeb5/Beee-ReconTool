@@ -15,7 +15,7 @@
                 
 **Beee ReconTool** is a comprehensive Python-based reconnaissance and security assessment platform designed for cybersecurity professionals, penetration testers, and ethical hackers. This tool provides both passive and active reconnaissance capabilities through an intuitive, menu-driven interface.
 
-## 📖 Table of Contents
+# 📖 Table of Contents
 
 - [Features](#-features)
 - [Installation](#-installation)
@@ -63,10 +63,12 @@ python main.py
 ```
 
 ## 🎯 Usage
-Basic Operation
-bash
+### Basic Operation
+```bash
 python main.py
-Interactive Menu System
+```
+### Interactive Menu System
+```text
 The tool provides an intuitive menu-driven interface:
 
 Select reconnaissance type (Passive/Active/Full)
@@ -78,9 +80,10 @@ Choose specific modules to execute
 View results in real-time
 
 Generate reports in HTML format
+```
 
-Example Session
-text
+#### Example Session
+```text
 ➤ Enter Target (domain or IP address):
 >>> example.com
 
@@ -93,3 +96,4 @@ DNS enumeration completed!
 Generate report? (y/n): y
 Report filename (default: report.html): 
 Report generated at: reports/example_com_report.html
+```
