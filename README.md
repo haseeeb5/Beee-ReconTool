@@ -63,6 +63,7 @@ python main.py
 ```
 
 ## 🎯 Usage
+
 ### Basic Operation
 ```bash
 python main.py
@@ -71,11 +72,11 @@ python main.py
 
 The tool provides an intuitive menu-driven interface:
 
-1. Select reconnaissance type (Passive/Active/Full)
-2. Enter target (domain or IP address)
-3. Choose specific modules to execute
-4. View results in real-time
-5. Generate reports in HTML format
+1. **Select reconnaissance type** (Passive/Active/Full)
+2. **Enter target** (domain or IP address)
+3. **Choose specific modules** to execute
+4. **View results** in real-time
+5. **Generate reports** in HTML format
 
 #### Example Session
 ```text
