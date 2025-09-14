@@ -50,7 +50,7 @@
 - pip (Python package manager)
 
 ### Quick Setup
-```bash
+
 # Clone the repository
 git clone https://github.com/yourusername/Beee_ReconTool.git
 cd Beee_ReconTool
@@ -60,6 +60,7 @@ pip install -r requirements.txt
 
 # Run the tool
 python main.py
+bash
 
 ## 🎯 Usage
 Basic Operation
