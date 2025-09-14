@@ -71,15 +71,11 @@ python main.py
 
 The tool provides an intuitive menu-driven interface:
 
-Select reconnaissance type (Passive/Active/Full)
-
-Enter target (domain or IP address)
-
-Choose specific modules to execute
-
-View results in real-time
-
-Generate reports in HTML format
+1. Select reconnaissance type (Passive/Active/Full)
+2. Enter target (domain or IP address)
+3. Choose specific modules to execute
+4. View results in real-time
+5. Generate reports in HTML format
 
 #### Example Session
 ```text
