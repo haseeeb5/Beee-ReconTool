@@ -134,22 +134,14 @@ Beee_ReconTool/
 ```
 
 ## 📋 Dependencies
-Key dependencies (see requirements.txt for complete list):
+Key dependencies (see ```requirements.txt``` for complete list):
 
-```rich==13.7.0``` - Beautiful terminal formatting
-
-requests==2.31.0 - HTTP requests
-
-python-whois==0.9.3 - WHOIS lookups
-
-dnspython==2.4.2 - DNS enumeration
-
-python-nmap==0.7.1 - Port scanning
-
-beautifulsoup4==4.12.2 - HTML parsing
-
-lxml==4.9.3 - XML processing
-
-matplotlib==3.8.2 - Data visualization
-
-seaborn==0.13.0 - Statistical visualizations
+- ```rich==13.7.0``` - Beautiful terminal formatting
+- ```requests==2.31.0``` - HTTP requests
+- ```python-whois==0.9.3``` - WHOIS lookups
+- ```dnspython==2.4.2``` - DNS enumeration
+- ```python-nmap==0.7.1``` - Port scanning
+- ```beautifulsoup4==4.12.2``` - HTML parsing
+- ```lxml==4.9.3``` - XML processing
+- ```matplotlib==3.8.2``` - Data visualization
+- ```seaborn==0.13.0``` - Statistical visualizations
