@@ -91,3 +91,65 @@ Generate report? (y/n): y
 Report filename (default: report.html): 
 Report generated at: reports/acrodesk_com_report.html
 ```
+
+## 📦 Modules Overview
+### Passive Modules
+Module	Description	File
+WHOIS Lookup	Domain registration analysis with privacy detection	modules/passive/who_is.py
+DNS Enumeration	Complete DNS reconnaissance and record analysis	modules/passive/dns_enum.py
+Subdomain Discovery	Subdomain enumeration with multiple techniques	modules/passive/subdomain.py
+### Active Modules
+Module	Description	File
+Port Scanning	Multi-threaded network port discovery	modules/active/port_scan.py
+Banner Analysis	Service identification and banner grabbing	modules/active/banners.py
+Technology Detection	Web technology stack fingerprinting	modules/active/tech_detect.py
+### Utility Modules
+Module	Description	File
+Reporting	Professional HTML report generation	modules/reporting.py
+Async Runner	Asynchronous task management	utils/async_runner.py
+Logger	Comprehensive logging system	utils/logger.py
+Cache	Result caching functionality	utils/cache.py
+## 🏗️ Project Structure
+```text
+Beee_ReconTool/
+├── main.py                    # Main application entry point
+├── modules/
+│   ├── passive/               # Passive reconnaissance modules
+│   │   ├── who_is.py         # WHOIS lookup functionality
+│   │   ├── dns_enum.py       # DNS enumeration
+│   │   └── subdomain.py      # Subdomain discovery
+│   └── active/               # Active reconnaissance modules
+│       ├── port_scan.py      # Port scanning
+│       ├── banners.py        # Banner grabbing
+│       └── tech_detect.py    # Technology detection
+├── utils/                    # Utility functions
+│   ├── async_runner.py       # Async task management
+│   ├── logger.py            # Logging system
+│   └── cache.py             # Result caching
+├── templates/               # HTML report templates
+├── reports/                # Generated output reports
+├── requirements.txt        # Python dependencies
+├── README.md              # Project documentation
+└── LICENSE               # MIT License
+```
+
+## 📋 Dependencies
+Key dependencies (see requirements.txt for complete list):
+
+```rich==13.7.0``` - Beautiful terminal formatting
+
+requests==2.31.0 - HTTP requests
+
+python-whois==0.9.3 - WHOIS lookups
+
+dnspython==2.4.2 - DNS enumeration
+
+python-nmap==0.7.1 - Port scanning
+
+beautifulsoup4==4.12.2 - HTML parsing
+
+lxml==4.9.3 - XML processing
+
+matplotlib==3.8.2 - Data visualization
+
+seaborn==0.13.0 - Statistical visualizations
