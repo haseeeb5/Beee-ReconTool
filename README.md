@@ -22,8 +22,6 @@
 - [Usage](#-usage)
 - [Modules](#-modules)
 - [Project Structure](#-project-structure)
-- [Contributing](#-contributing)
-- [License](#-license)
 - [Disclaimer](#-legal-disclaimer)
 
 ## 🚀 Features
@@ -78,7 +76,7 @@ The tool provides an intuitive menu-driven interface:
 4. **View results** in real-time
 5. **Generate reports** in HTML format
 
-#### Example Session
+### Example Session
 ```text
 ➤ Enter Target (domain or IP address):
 >>> www.acrodesk.com
