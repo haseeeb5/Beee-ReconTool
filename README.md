@@ -94,22 +94,31 @@ Report generated at: reports/acrodesk_com_report.html
 
 ## 📦 Modules Overview
 
-### Passive Modules
-Module	Description	File
-WHOIS Lookup	Domain registration analysis with privacy detection	modules/passive/who_is.py
-DNS Enumeration	Complete DNS reconnaissance and record analysis	modules/passive/dns_enum.py
-Subdomain Discovery	Subdomain enumeration with multiple techniques	modules/passive/subdomain.py
-### Active Modules
-Module	Description	File
-Port Scanning	Multi-threaded network port discovery	modules/active/port_scan.py
-Banner Analysis	Service identification and banner grabbing	modules/active/banners.py
-Technology Detection	Web technology stack fingerprinting	modules/active/tech_detect.py
-### Utility Modules
-Module	Description	File
-Reporting	Professional HTML report generation	modules/reporting.py
-Async Runner	Asynchronous task management	utils/async_runner.py
-Logger	Comprehensive logging system	utils/logger.py
-Cache	Result caching functionality	utils/cache.py
+### 🔍 Passive Modules
+
+| Module | Description | File |
+|--------|-------------|------|
+| **WHOIS Lookup** | Domain registration analysis with privacy detection and security assessment | `modules/passive/who_is.py` |
+| **DNS Enumeration** | Complete DNS reconnaissance and record analysis (A, AAAA, MX, TXT, NS, SOA) | `modules/passive/dns_enum.py` |
+| **Subdomain Discovery** | Subdomain enumeration with multiple techniques and wordlists | `modules/passive/subdomain.py` |
+
+### ⚡ Active Modules
+
+| Module | Description | File |
+|--------|-------------|------|
+| **Port Scanning** | Multi-threaded network port discovery with SYN, Connect, and UDP scanning modes | `modules/active/port_scan.py` |
+| **Banner Analysis** | Service identification and banner grabbing for open ports | `modules/active/banners.py` |
+| **Technology Detection** | Web technology stack fingerprinting and service detection | `modules/active/tech_detect.py` |
+
+### 🛠️ Utility Modules
+
+| Module | Description | File |
+|--------|-------------|------|
+| **Reporting** | Professional HTML report generation with detailed findings | `modules/reporting.py` |
+| **Async Runner** | Asynchronous task management for parallel execution | `utils/async_runner.py` |
+| **Logger** | Comprehensive logging system with multiple log levels | `utils/logger.py` |
+| **Cache** | Result caching functionality for improved performance | `utils/cache.py` |
+
 
 ## 🏗️ Project Structure
 ```text
