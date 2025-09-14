@@ -178,7 +178,7 @@ Key dependencies (see ```requirements.txt``` for complete list):
 
 **Maintainer:** [haseeeb5]  
 **Email:** [h22cs038@gmail.com]  
-**Project Link:** [https://github.com/haseeeb5/Beee_ReconTool]
+**Project Link:** [https://github.com/haseeeb5/Beee-ReconTool]
 
 
 **Beee ReconTool** - Because reconnaissance shouldn't be a buzzkill! 🐝✨
