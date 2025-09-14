@@ -93,6 +93,7 @@ Report generated at: reports/acrodesk_com_report.html
 ```
 
 ## 📦 Modules Overview
+
 ### Passive Modules
 Module	Description	File
 WHOIS Lookup	Domain registration analysis with privacy detection	modules/passive/who_is.py
@@ -109,6 +110,7 @@ Reporting	Professional HTML report generation	modules/reporting.py
 Async Runner	Asynchronous task management	utils/async_runner.py
 Logger	Comprehensive logging system	utils/logger.py
 Cache	Result caching functionality	utils/cache.py
+
 ## 🏗️ Project Structure
 ```text
 Beee_ReconTool/
@@ -129,8 +131,7 @@ Beee_ReconTool/
 ├── templates/               # HTML report templates
 ├── reports/                # Generated output reports
 ├── requirements.txt        # Python dependencies
-├── README.md              # Project documentation
-└── LICENSE               # MIT License
+└── README.md              # Project documentation
 ```
 
 ## 📋 Dependencies
