@@ -68,7 +68,7 @@ python main.py
 python main.py
 ```
 ### Interactive Menu System
-```text
+
 The tool provides an intuitive menu-driven interface:
 
 Select reconnaissance type (Passive/Active/Full)
@@ -80,12 +80,11 @@ Choose specific modules to execute
 View results in real-time
 
 Generate reports in HTML format
-```
 
 #### Example Session
 ```text
 ➤ Enter Target (domain or IP address):
->>> example.com
+>>> www.acrodesk.com
 
 Starting WHOIS lookup...
 WHOIS lookup completed!
@@ -95,5 +94,5 @@ DNS enumeration completed!
 
 Generate report? (y/n): y
 Report filename (default: report.html): 
-Report generated at: reports/example_com_report.html
+Report generated at: reports/acrodesk_com_report.html
 ```
