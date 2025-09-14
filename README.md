@@ -174,32 +174,12 @@ Key dependencies (see ```requirements.txt``` for complete list):
 - CTF (Capture The Flag) competitions
 - Security awareness training
 
-## 🐛 Support and Issues
-
-If you encounter any issues or have feature requests:
-
-1. Check the [existing issues](https://github.com/yourusername/Beee_ReconTool/issues)
-2. Create a new issue with:
-   - Detailed description of the problem
-   - Steps to reproduce
-   - Expected vs actual behavior
-   - Environment details (OS, Python version, etc.)
-   - Error messages or screenshots
-
 ## 📞 Contact
 
-**Maintainer:** [Your Name]  
-**Email:** [your.email@example.com]  
-**Project Link:** [https://github.com/yourusername/Beee_ReconTool](https://github.com/yourusername/Beee_ReconTool)
+**Maintainer:** [haseeeb5]  
+**Email:** [h22cs038@gmail.com]  
+**Project Link:** [https://github.com/haseeeb5/Beee_ReconTool]
 
-## 🙏 Acknowledgments
-
-- Inspired by various open-source reconnaissance tools
-- Built with the Python security community in mind  
-- Thanks to all contributors and testers
-- Special thanks to the open-source security community
-
----
 
 **Beee ReconTool** - Because reconnaissance shouldn't be a buzzkill! 🐝✨
 
